@@ -1,0 +1,23 @@
+{
+	"name": "winnerke/tcpdi",
+	"version": "1.0.4",
+	"type": "library",
+	"description": "Helper Package for TCPDI",
+	"license": "Apache-2.0",
+	"authors": [{
+		"name": "Turóczi Zsolt",
+		"email": "winnerke@smartha.hu",
+		"homepage": "https://smartha.hu"
+	}],
+	"require": {
+		"php": ">=7.4.0",
+		"tecnickcom/tcpdf": "^6.4"
+	},
+	"autoload": {
+		"classmap": [
+			"fpdf_tpl.php",
+			"tcpdi.php",
+			"tcpdi_parser.php"
+		]
+	}
+}
